@@ -82,33 +82,33 @@ infra_nw_gateway: 192.168.10.1            # Infrastructure network Gateway
 infra_nw_azs: az1,az2,az3                 # Comma separated list of AZ's to be associated with this network
 nsx_networking_enabled: true              # (true|false) to use nsx networking feature
 nsx_mode: nsx-t                           # Valid values: nsx-t, nsx-v
-nsx_address: nsx-man.corp.local    # address of nsx mgr
+nsx_address: nsxt-man.corp.local    # address of nsx mgr
 nsx_username: admin                       # username for nsx access
 nsx_password: VMware1!                # password for nsx access
 
 # Careful with the indent and the | for multi-line input
-nsx_ca_certificate: |                     # cert for nsx
-
-  -----BEGIN CERTIFICATE-----
-MIIDVDCCAjygAwIBAgIGAWTzvajGMA0GCSqGSIb3DQEBCwUAMGsxHDAaBgNVBAMM
-E25zeHQtbWFuLmNvcnAubG9jYWwxEDAOBgNVBAoMB0NvbXBhbnkxEjAQBgNVBAsM
-CW5ldC1pbnRlZzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMQswCQYDVQQHDAJT
-RjAeFw0xODA4MDEwNDI3MzBaFw0yODA3MjkwNDI3MzBaMGsxHDAaBgNVBAMME25z
-eHQtbWFuLmNvcnAubG9jYWwxEDAOBgNVBAoMB0NvbXBhbnkxEjAQBgNVBAsMCW5l
-dC1pbnRlZzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMQswCQYDVQQHDAJTRjCC
-ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJLXnljFAGgylY5XYDk6sU9i
-76WqKo9k/F2N0D4Zr5pUfJ+E6wvnTi57geNL+TVy39VHzGAtgpyB5lRztGUABHyP
-tOgmVPwMGQMP+nlORIjv/79V84Qtsty/1e02DyQebohihlBdIFdwstlu0dT5kmiM
-aPLhtEnCb5W4iWIOwaoVDLLyY24GsEEQVvl+0hdi3xHBgshI+xKsIzJJUTw3q8d1
-8Kl9Wko5AMm5oTZkJaQ+OzNax5Spt4QIyzf3mF//x0SqvlEUxkNb9lRHRql5cedY
-Hn5aZ54dhlejYIy/omjJocigNt/Q3UybjUh0jW4enH1vYPf2bIgZZ92YXyH7wLsC
-AwEAATANBgkqhkiG9w0BAQsFAAOCAQEAWVjrd2UPc/LV/NwyJE3rmpLDilRGXzrz
-H/RqWEx+X2+K1tsYD3wTr9LRQJ1BjOykWPU6qvNmcdFhjy0Cp6cB4X1Q/40mCDY8
-5nWfuCnds6sLGSa4yxRksb+EYp24lxlBnAcUxyUKgOKi2KP1KdZLDV+53MAorOjZ
-EjCXlaj5CLvEvW/LDCH1BmRfPSatR6sPvS905S/nrbUNuGJv74yQFNE9cgdpg/Xt
-/yHoqGpbY6peo3+3lUW8ilb9cPS8VIARqNbosg3oGIrR+umRlO4RG9o9udtSBkW9
-9L9TCeVHuyj95wwQr8m0943PoscR8c3GImST4EcIh0dAJz1rFbawPA==
------END CERTIFICATE-----
+#nsx_ca_certificate: |                     # cert for nsx
+#
+#  -----BEGIN CERTIFICATE-----
+#MIIDVDCCAjygAwIBAgIGAWTzvajGMA0GCSqGSIb3DQEBCwUAMGsxHDAaBgNVBAMM
+#E25zeHQtbWFuLmNvcnAubG9jYWwxEDAOBgNVBAoMB0NvbXBhbnkxEjAQBgNVBAsM
+#CW5ldC1pbnRlZzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMQswCQYDVQQHDAJT
+#RjAeFw0xODA4MDEwNDI3MzBaFw0yODA3MjkwNDI3MzBaMGsxHDAaBgNVBAMME25z
+#eHQtbWFuLmNvcnAubG9jYWwxEDAOBgNVBAoMB0NvbXBhbnkxEjAQBgNVBAsMCW5l
+#dC1pbnRlZzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMQswCQYDVQQHDAJTRjCC
+#ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJLXnljFAGgylY5XYDk6sU9i
+#76WqKo9k/F2N0D4Zr5pUfJ+E6wvnTi57geNL+TVy39VHzGAtgpyB5lRztGUABHyP
+#tOgmVPwMGQMP+nlORIjv/79V84Qtsty/1e02DyQebohihlBdIFdwstlu0dT5kmiM
+#aPLhtEnCb5W4iWIOwaoVDLLyY24GsEEQVvl+0hdi3xHBgshI+xKsIzJJUTw3q8d1
+#8Kl9Wko5AMm5oTZkJaQ+OzNax5Spt4QIyzf3mF//x0SqvlEUxkNb9lRHRql5cedY
+#Hn5aZ54dhlejYIy/omjJocigNt/Q3UybjUh0jW4enH1vYPf2bIgZZ92YXyH7wLsC
+#AwEAATANBgkqhkiG9w0BAQsFAAOCAQEAWVjrd2UPc/LV/NwyJE3rmpLDilRGXzrz
+#H/RqWEx+X2+K1tsYD3wTr9LRQJ1BjOykWPU6qvNmcdFhjy0Cp6cB4X1Q/40mCDY8
+#5nWfuCnds6sLGSa4yxRksb+EYp24lxlBnAcUxyUKgOKi2KP1KdZLDV+53MAorOjZ
+#EjCXlaj5CLvEvW/LDCH1BmRfPSatR6sPvS905S/nrbUNuGJv74yQFNE9cgdpg/Xt
+#/yHoqGpbY6peo3+3lUW8ilb9cPS8VIARqNbosg3oGIrR+umRlO4RG9o9udtSBkW9
+#9L9TCeVHuyj95wwQr8m0943PoscR8c3GImST4EcIh0dAJz1rFbawPA==
+#-----END CERTIFICATE-----
 
 
 
