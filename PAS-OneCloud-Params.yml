@@ -90,25 +90,26 @@ nsx_password: VMware1!                # password for nsx access
 nsx_ca_certificate: |                     # cert for nsx
 
   -----BEGIN CERTIFICATE-----
-  MIIDUDCCAjigAwIBAgIGAWM4A/f5MA0GCSqGSIb3DQEBCwUAMGkxGzAZBgNVBAMM
-  Em5zeC1tYW4uY29ycC5sb2NhbDEPMA0GA1UECgwGVk13YXJlMRIwEAYDVQQLDAlu
-  ZXQtaW50ZWcxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJDQTELMAkGA1UEBwwCU0Yw
-  HhcNMTgwNTA3MDAzMjU0WhcNMjgwNTA0MDAzMjU0WjBpMRswGQYDVQQDDBJuc3gt
-  bWFuLmNvcnAubG9jYWwxDzANBgNVBAoMBlZNd2FyZTESMBAGA1UECwwJbmV0LWlu
-  dGVnMQswCQYDVQQGEwJVUzELMAkGA1UECAwCQ0ExCzAJBgNVBAcMAlNGMIIBIjAN
-  BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtNGTzxWunM4MTE5nS/5deqf6/qjN
-  krqo9tAQbis4X04qErtEL9yVM/Bv/vd2UXObT9Oh3mSHn/OXL+wvKmZ3I76Oepfj
-  LqDoKXpRycn1KIZlcr7LOwUpcUx8HxUALxPD/MPU2WClgWi8KLsrQqRDi2jcRSSE
-  hBpwl7v8NOTKVmojoywEw66QOhxz9d+9wGkjY0q9bP+5iAXzoL+u3qJa655qjWAf
-  7eX4ZFGP2NqKyH+mtZh+zd4oi/IhzJlaUWEv7wcdiPveHU/Xg/JPkKJOsa//4n+z
-  G1RnUtda3r2RLUHwqw+/XI8UTMUyHqv8GWNdRS3vtwjaFCFlnas9On39rwIDAQAB
-  MA0GCSqGSIb3DQEBCwUAA4IBAQAmMBrPT9eHICfjC6QF68prTeAdxKQHVtyPZZk+
-  gQsiR6WdrEjUXFQhYveJZfz371a7IxI4IriMJ2gCsbnnVHJWEyEzjbUf1umXeKzP
-  oZvp4OEqJXgcWcifzdDpPN9GgvUpoGi6639QPYeLA12Oaq4ITSZdMYXX+AfAUebM
-  4Hz5BdllMatAwCAIOeGdzWuflBJWhFBSEZA6foNFsTm9N10hmhZjPFEWh3prEmgn
-  oPsOdhg1MqlkLPgfi+ULj6QGIivMPJbfTNlnCXwOAy5uwm3QGJl9cBsyQ3UGG2GN
-  KwsIZezdkugIKTtN4ahKc02ZjqnHo94MnD7GW9YupTCwqruk
-  -----END CERTIFICATE-----
+MIIDVDCCAjygAwIBAgIGAWTzvajGMA0GCSqGSIb3DQEBCwUAMGsxHDAaBgNVBAMM
+E25zeHQtbWFuLmNvcnAubG9jYWwxEDAOBgNVBAoMB0NvbXBhbnkxEjAQBgNVBAsM
+CW5ldC1pbnRlZzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMQswCQYDVQQHDAJT
+RjAeFw0xODA4MDEwNDI3MzBaFw0yODA3MjkwNDI3MzBaMGsxHDAaBgNVBAMME25z
+eHQtbWFuLmNvcnAubG9jYWwxEDAOBgNVBAoMB0NvbXBhbnkxEjAQBgNVBAsMCW5l
+dC1pbnRlZzELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMQswCQYDVQQHDAJTRjCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJLXnljFAGgylY5XYDk6sU9i
+76WqKo9k/F2N0D4Zr5pUfJ+E6wvnTi57geNL+TVy39VHzGAtgpyB5lRztGUABHyP
+tOgmVPwMGQMP+nlORIjv/79V84Qtsty/1e02DyQebohihlBdIFdwstlu0dT5kmiM
+aPLhtEnCb5W4iWIOwaoVDLLyY24GsEEQVvl+0hdi3xHBgshI+xKsIzJJUTw3q8d1
+8Kl9Wko5AMm5oTZkJaQ+OzNax5Spt4QIyzf3mF//x0SqvlEUxkNb9lRHRql5cedY
+Hn5aZ54dhlejYIy/omjJocigNt/Q3UybjUh0jW4enH1vYPf2bIgZZ92YXyH7wLsC
+AwEAATANBgkqhkiG9w0BAQsFAAOCAQEAWVjrd2UPc/LV/NwyJE3rmpLDilRGXzrz
+H/RqWEx+X2+K1tsYD3wTr9LRQJ1BjOykWPU6qvNmcdFhjy0Cp6cB4X1Q/40mCDY8
+5nWfuCnds6sLGSa4yxRksb+EYp24lxlBnAcUxyUKgOKi2KP1KdZLDV+53MAorOjZ
+EjCXlaj5CLvEvW/LDCH1BmRfPSatR6sPvS905S/nrbUNuGJv74yQFNE9cgdpg/Xt
+/yHoqGpbY6peo3+3lUW8ilb9cPS8VIARqNbosg3oGIrR+umRlO4RG9o9udtSBkW9
+9L9TCeVHuyj95wwQr8m0943PoscR8c3GImST4EcIh0dAJz1rFbawPA==
+-----END CERTIFICATE-----
+
 
 
 # To generate a correct self-signed cert
@@ -125,39 +126,21 @@ nsx_ca_certificate: |                     # cert for nsx
 
 deployment_network_name: "DEPLOYMENT"
 deployment_vsphere_network: PAS-ERT  # vCenter Deployment network name
-deployment_nw_cidr: 192.168.24.0/24           # Deployment network CIDR, ex: 10.0.0.0/22
-deployment_excluded_range: 192.168.24.1  # Deployment network exclusion range
+deployment_nw_cidr: 192.168.20.0/24           # Deployment network CIDR, ex: 10.0.0.0/22
+deployment_excluded_range: 192.168.20.1  # Deployment network exclusion range
 deployment_nw_dns: 192.168.110.10           # Deployment network DNS
-deployment_nw_gateway: 192.168.24.1        # Deployment network Gateway
+deployment_nw_gateway: 192.168.20.1        # Deployment network Gateway
 deployment_nw_azs: az1,az2,az3            # Comma separated list of AZ's to be associated with this network
-
-# Additional network for PKS - set to empty "" string for the vsphere network if its not required
-pks_network_name: "PKS"             # Logical switch for PKS deployment
-pks_vsphere_network: PKS-Infra             # vCenter Deployment network name for PKS - if empty quotes, then this network would be skipped
-pks_nw_cidr: 192.168.40.0/24        # Deployment network CIDR, ex: 10.0.0.0/22
-pks_excluded_range: 192.168.40.1  # Deployment network exclusion range
-pks_nw_dns: 192.168.1.10                # Deployment network DNS
-pks_nw_gateway: 192.168.40.1        # Deployment network Gateway
-pks_nw_azs: PKS                  # Comma separated list of AZ's to be associated with this network
 
 
 services_network_name: "SERVICES"
-
 services_vsphere_network: PAS-Services   # vCenter Services network name  - if empty quotes, then this network would be skipped
 services_nw_cidr: 192.168.28.0/24              # Services network CIDR, ex: 10.0.0.0/22
-services_excluded_range: 192.168.28.1    # Services network exclusion range
+services_excluded_range: 192.168.30.1    # Services network exclusion range
 services_nw_dns: 192.168.110.10             # Services network DNS
-services_nw_gateway: 192.168.28.1         # Services network Gateway
+services_nw_gateway: 192.168.30.1         # Services network Gateway
 services_nw_azs: az1,az2,az3             # Comma separated list of AZ's to be associated with this network
 
-dynamic_services_network_name: "DYNAMIC-SERVICES"
-is_service_network: true  # Required select service network option in Ops man true or false
-dynamic_services_vsphere_network: PAS-DynamicServices    # vCenter Dynamic Services network name  - if empty quotes, then this network would be skipped
-dynamic_services_nw_cidr: 192.168.30.0/24            # Dynamic Services network CIDR, ex: 10.0.0.0/22
-dynamic_services_excluded_range: 192.168.30.1     # Dynamic Services network exclusion range
-dynamic_services_nw_dns: 192.168.110.10             # Dynamic Services network DNS
-dynamic_services_nw_gateway: 192.168.30.1         # Dynamic Services network Gateway
-dynamic_services_nw_azs: az1,az2,az3              # Comma separated list of AZ's to be associated with this network
 
 # NSX-T Related portion
 nsx_subnet_prefix: 24                    # default 24 - 256 addresses in a given org
@@ -185,7 +168,7 @@ blobstore_internal_access_subnet: 'allow 10.0.0.0/8;,allow 172.16.0.0/12;,allow 
 enable_grootfs: false
 
 
-container_networking_nw_cidr: 10.255.0.0/16 # c2c networking network cidr
+container_networking_nw_cidr: 10.4.0.0/16 # c2c networking network cidr
 
 # Enable external or silk as CNI plugin
 container_networking_interface_plugin: external # Default to use "silk"
@@ -262,9 +245,9 @@ allow_app_ssh_access: true
 router_request_timeout_in_seconds: 900
 
 ha_proxy_ips:         # Comma-separated list of static IPs
-router_static_ips: 192.168.24.11,192.168.24.12     # Comma-separated list of static IPs
-tcp_router_static_ips: 192.168.24.13 # Comma-separated list of static IPs
-ssh_static_ips: 192.168.24.14        # Comma-separated list of static IPs
+router_static_ips: 192.168.20.11,192.168.20.12     # Comma-separated list of static IPs
+tcp_router_static_ips: 192.168.20.13 # Comma-separated list of static IPs
+ssh_static_ips: 192.168.20.14        # Comma-separated list of static IPs
 
 mysql_monitor_email: test@test.com   # Email address to receive MySQL monitor notifications
 mysql_backups: disable   # Whether to enable MySQL backups. (disable|s3|scp)
@@ -396,7 +379,7 @@ rats_config: |
 
 
 tile_rabbit_singleton_job_az: az1
-tile_rabbit_static_ips: 192.168.24.155
+tile_rabbit_static_ips: 192.168.20.155
 tile_rabbit_admin_user: admin
 tile_rabbit_admin_passwd: R1xWasfasfsfasfgoJdekTP3
 tile_rabbit_proxy_instances: 1
@@ -439,7 +422,7 @@ tile_rabbit_errands_to_run_on_change: all
 
 mysql_singleton_job_az: az1
 tile_mysql_proxy_vip:
-tile_mysql_proxy_ips: 192.168.24.160
+tile_mysql_proxy_ips: 192.168.20.160
 tile_mysql_monitor_email: admin.pcf@something
 tile_mysql_errands_to_run_on_change: all
 
