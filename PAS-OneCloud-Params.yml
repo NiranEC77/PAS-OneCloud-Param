@@ -62,6 +62,7 @@ az_3_rp_name: az3
 
 az_4_name:
 az_4_rp_name:
+az_4_cluster_name:
 
 ntp_servers: time.vmware.com                 # Comma-separated list of NTP servers to use for VMs deployed by BOSH
 ops_dir_hostname:                            # Optional DNS name for Ops Director. Should be reachable from all networks.
