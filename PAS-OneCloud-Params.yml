@@ -156,6 +156,7 @@ credhub_password: password123password123password123 # Needs to be min 20 charact
 # Cloud Controller wont be able to reach and talk back to the blobstore if the subnet is not correctly included
 blobstore_internal_access_subnet: 'allow 10.0.0.0/8;,allow 172.16.0.0/12;,allow 192.168.0.0/16;,allow 172.10.0.0/12;,allow 10.4.0.0/16;' #add the subnet for the PAS is added here
 enable_grootfs: false
+routing_ssl_terminator: router # Go with router as ssl termination point, no ssl termination on NSX LBRs as of 2.1
 
 
 container_networking_nw_cidr: 10.4.0.0/16 # c2c networking network cidr
