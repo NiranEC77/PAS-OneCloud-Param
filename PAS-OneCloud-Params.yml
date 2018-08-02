@@ -299,6 +299,10 @@ diego_brain_nsx_lb_pool_name:
 diego_brain_nsx_lb_security_group:
 diego_brain_nsx_lb_port:
 
+nsx_t_container_ip_block_spec: container-ip-block
+nsx_t_external_ip_pool_spec: snat-vip-pool-for-pas
+nsx_t_overlay_transport_zone: overlay-tz
+nsx_t_t0router_name: DefaultT0Router
 
 cf_uaa_credential_references: ".uaa.admin_credentials,.uaa.admin_client_credentials,.uaa.tcp_emitter_credentials"
 
