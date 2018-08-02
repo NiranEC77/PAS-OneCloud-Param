@@ -60,6 +60,8 @@ az_3_name: az3                   # Logical name of availability zone. No spaces 
 az_3_cluster_name: RegionA01-K8s      # Name of cluster in vCenter for AZ3
 az_3_rp_name: az3
 
+az_4_name:
+az_4_rp_name:
 
 ntp_servers: time.vmware.com                 # Comma-separated list of NTP servers to use for VMs deployed by BOSH
 ops_dir_hostname:                            # Optional DNS name for Ops Director. Should be reachable from all networks.
