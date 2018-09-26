@@ -305,7 +305,7 @@ diego_brain_nsx_lb_port:
 
 nsx_t_container_ip_block_spec: |
   container_ip_blocks:
-  - name: container-ip-block  
+  - name: PAS-container-ip-block  
 nsx_t_external_ip_pool_spec: |
   external_ip_pools:
   - name: snat-vip-pool-for-pas
