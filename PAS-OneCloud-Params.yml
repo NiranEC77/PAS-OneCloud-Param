@@ -435,4 +435,6 @@ s3_creds_secret_access_key: s6A234...asfsadUL   # Required for S3. Secret access
 s3_region: us-west-2                 # The region the bucket is in. Leave it blank if not applicable (e.g. for Minio)
 s3_nsx_t_tile_path: VMware-NSX-T-(.*).pivotal    # file path name to the tile in the s3 bucket"
 
-
+credhub_instances:
+mysql_proxy_nsx_security_group: 
+syslog_scheduler_instances: 
