@@ -52,13 +52,13 @@ vm_disk_type: "thin"         # Disk type for BOSH provisioned VM. (thick|thin)
 # AZ configuration for Ops Director
 az_1_name: az1                   # Logical name of availability zone. No spaces or special characters.
 az_1_cluster_name: RegionA01-K8s      # Name of cluster in vCenter for AZ1
-az_1_rp_name: az1        # Resource pool name in vCenter for AZ1
+az_1_rp_name: PAS-AZ1        # Resource pool name in vCenter for AZ1
 az_2_name: az2                   # Logical name of availability zone. No spaces or special characters.
 az_2_cluster_name: RegionA01-K8s      # Name of cluster in vCenter for AZ2
-az_2_rp_name: az2
+az_2_rp_name: PAS-AZ2
 az_3_name: az3                   # Logical name of availability zone. No spaces or special characters.
 az_3_cluster_name: RegionA01-K8s      # Name of cluster in vCenter for AZ3
-az_3_rp_name: az3
+az_3_rp_name: PAS-AZ3
 
 az_4_name:
 az_4_rp_name:
