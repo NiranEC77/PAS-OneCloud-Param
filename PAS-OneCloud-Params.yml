@@ -1,5 +1,5 @@
 #pipeline resource configuration
-pivnet_token: TL8p6HPyTaQmbEzZyR2s    # Pivnet token for downloading resources from Pivnet. Find this token at https://network.pivotal.io/users/dashboard/edit-profile
+pivnet_token: MgQvFfqi-eHnNx8xkR9x    # Pivnet token for downloading resources from Pivnet. Find this token at https://network.pivotal.io/users/dashboard/edit-profile
 opsman_major_minor_version: ^2\.4\..*$   # PCF Ops Manager minor version to track
 ert_major_minor_version: ^2\.4\.0.*$      # PCF Elastic Runtime minor version to track
 nsxt_major_minor_version: ^2\.4\.0.*$   # PCF Elastic Runtime minor version to track
@@ -53,12 +53,12 @@ vm_disk_type: "thin"         # Disk type for BOSH provisioned VM. (thick|thin)
 az_1_name: az1                   # Logical name of availability zone. No spaces or special characters.
 az_1_cluster_name: RegionA01-K8s      # Name of cluster in vCenter for AZ1
 az_1_rp_name: PAS-AZ1        # Resource pool name in vCenter for AZ1
-az_2_name: az2                   # Logical name of availability zone. No spaces or special characters.
-az_2_cluster_name: RegionA01-K8s      # Name of cluster in vCenter for AZ2
-az_2_rp_name: PAS-AZ2
-az_3_name: az3                   # Logical name of availability zone. No spaces or special characters.
-az_3_cluster_name: RegionA01-K8s      # Name of cluster in vCenter for AZ3
-az_3_rp_name: PAS-AZ3
+az_2_name: #az2                   # Logical name of availability zone. No spaces or special characters.
+az_2_cluster_name: #RegionA01-K8s      # Name of cluster in vCenter for AZ2
+az_2_rp_name: #PAS-AZ2
+az_3_name: #az3                   # Logical name of availability zone. No spaces or special characters.
+az_3_cluster_name: #RegionA01-K8s      # Name of cluster in vCenter for AZ3
+az_3_rp_name: #PAS-AZ3
 
 az_4_name:
 az_4_rp_name:
@@ -78,12 +78,12 @@ infra_nw_cidr: 192.168.10.0/24              # Infrastructure network CIDR, ex: 1
 infra_excluded_range: 192.168.10.1-192.168.10.10       # Infrastructure network exclusion range
 infra_nw_dns: 192.168.110.10                    # Infrastructure network DNS
 infra_nw_gateway: 192.168.10.1            # Infrastructure network Gateway
-infra_nw_azs: az1,az2,az3                 # Comma separated list of AZ's to be associated with this network
+infra_nw_azs: az1                 # Comma separated list of AZ's to be associated with this network
 nsx_networking_enabled: true              # (true|false) to use nsx networking feature
 nsx_mode: nsx-t                           # Valid values: nsx-t, nsx-v
 nsx_address: nsxt-man.corp.local    # address of nsx mgr
 nsx_username: admin                       # username for nsx access
-nsx_password: VMware1!                # password for nsx access
+nsx_password: VMware1!VMware1!                # password for nsx access
 
 
 
@@ -106,7 +106,7 @@ deployment_nw_cidr: 192.168.20.0/24           # Deployment network CIDR, ex: 10.
 deployment_excluded_range: 192.168.20.1  # Deployment network exclusion range
 deployment_nw_dns: 192.168.110.10           # Deployment network DNS
 deployment_nw_gateway: 192.168.20.1        # Deployment network Gateway
-deployment_nw_azs: az1,az2,az3            # Comma separated list of AZ's to be associated with this network
+deployment_nw_azs: az1            # Comma separated list of AZ's to be associated with this network
 
 
 services_network_name: "SERVICES"
@@ -115,7 +115,7 @@ services_nw_cidr: 192.168.30.0/24              # Services network CIDR, ex: 10.0
 services_excluded_range: 192.168.30.1    # Services network exclusion range
 services_nw_dns: 192.168.110.10             # Services network DNS
 services_nw_gateway: 192.168.30.1         # Services network Gateway
-services_nw_azs: az1,az2,az3             # Comma separated list of AZ's to be associated with this network
+services_nw_azs: az1             # Comma separated list of AZ's to be associated with this network
 
 dynamic_services_excluded_range:
 dynamic_services_network_name:
